@@ -111,13 +111,6 @@ class FindAny extends FindStrategy {
 				}
 			}
 		}
-//						if (!invertedIndex.containsKey(query)) {
-//							System.out.println("No matching people found.");
-//						} else {
-//							for (Integer i : invertedIndex.get(query)) {
-//								System.out.println(people.get(i));
-//							}
-//						}
 		return found.toString().equals("") ? "No matching people found." : found.toString();
 	}
 }
